@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacer Pedido</title>
+</head>
+<body>
+    <h2>Realiza tu Pedido</h2>
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu Nombre, Astronauta</label><br>
+        <input type="text" placeholder="Nombre" name="Nombre" id="Nombre">
+
+        <br><br>
+
+        <label for="mesa">Indica tu numero de mesa</label><br>
+        <input type="number" name="mesa" id="mesa" placeholder="4">
+
+        <br><br>
+
+        <p>¿Comerás aquí o es para llevar?</p>
+        <input type="radio" name="aquiollevar" id="aqui" value="Aqui">
+        <label for="aqui">Aquí</label><br>
+        <input type="radio" name="aquiollevar" id="llevar" value="Llevar">
+        <label for="llevar">Llevar</label><br>
+
+        <p>Dinos de qué serán tus tacos :)</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" id="mercurioCuantos" name="mercurioCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Venus</label>
+        <input type="number" name="venusCuantos" id="venusCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Tierra</label>
+        <input type="number" name="tierraCuantos" id="tierraCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="marte" id="marte" value="Marte">
+        <label for="marte">Marte</label>
+        <input type="number" name="marteCuantos" id="marteCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="jupiter" id="jupiter" value="Jupiter">
+        <label for="jupiter">Jupiter</label>
+        <input type="number" name="jupiterCuantos" id="jupiterCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="saturno" id="saturno" value="Saturno">
+        <label for="saturno">Saturno</label>
+        <input type="number" name="saturnoCuantos" id="saturnoCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="urano" id="urano" value="Urano">
+        <label for="urano">Urano</label>
+        <input type="number" name="uranoCuantos" id="uranoCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="neptuno" id="neptuno" value="Neptuno">
+        <label for="neptuno">Neptuno</label>
+        <input type="number" name="neptunoCuantos" id="neptunoCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="pluton" id="pluton" value="Plutón">
+        <label for="pluton">Plutón</label>
+        <input type="number" name="plutonCuantos" id="plutonCuantos" placeholder="¿Cuántos?"><br>
+        
+        <p>¿Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Sangria">Sangria</option>
+            <option value="Mango">Mango</option>
+            <option value="Guayaba">Guayaba</option>
+        </select><br><br>
+        
+        <input type="reset" value="Limpiar selecciones">
+        <input type="submit" value="Enviar pedido">
+        <br><br>
+    </form>
+</body>
+</html>
