@@ -135,3 +135,12 @@ nav > div > ul > li > a {
     padding-left: 40px;
     float: left;
 }
+
+.banner1 {
+    float: left;
+    width: 900px;
+    height: 200px;
+    background-color: red;
+    background-image: url('../../../assets/img/banner1.png');
+    background-size: contain;
+}
