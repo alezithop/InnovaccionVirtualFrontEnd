@@ -21,27 +21,27 @@ body > nav > div:nth-child(2) {
     position:absolute;
 }
 
-header {
-    background-color:lightseagreen;
-}
-
 section {
     background-color: indianred;
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 section:nth-child(2n) {
     background-color: darkorchid;
 }
 
-li {
+nav {
+    background-color: white;
+}
+
+nav > div > ul > li {
     display: inline-block;
     padding-left: 3px;
     padding-right: 3px;
 }
 
-li > a {
+nav > div > ul > li > a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -65,4 +65,73 @@ li > a {
     color: #161616;
     background-color: transparent;
     border: none;
+}
+
+.FightVirusSection1 {
+    width: 900px;
+    height: 700px;
+}
+
+.FightVirusSection1Subsection1 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: contain;
+}
+
+.FightVirusSection1Subsection2 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-image: url('../../../assets/img/nurse.jpg');
+    background-size: contain;
+}
+
+.superHeader {
+    font-size:50px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    color: #050f47;
+    font-weight: 700;
+}
+
+.superHeaderDescription {
+    padding-left: 60px;
+    color: #161616;
+}
+
+.superHeaderIcons {
+    color: gold;
+    padding: 20px;
+}
+
+.superHeaderBullets > div:nth-child(1) {
+    padding-left: 40px;
+    float: left;
+}
+.scheduleVaccinations {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-weight: 600;
+}
+
+.schedulePopUp {
+    background-color: white;
+}
+
+.blueIcons {
+    color:#16189c;
+}
+
+.scheduleIcons {
+    padding-left: 40px;
+    float: left;
+}
+
+.scheduleButton {
+    padding-left: 40px;
+    float: left;
 }

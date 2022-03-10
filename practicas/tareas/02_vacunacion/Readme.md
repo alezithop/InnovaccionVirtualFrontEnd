@@ -17,3 +17,8 @@ Bonus:
 
 * Bonus de diseños o páginas adicionales (Totalmente a tu creatividad)
 * Bonus de despliegue de la página
+
+
+# Links reference for help
+- https://stackoverflow.com/questions/8200204/fit-background-image-to-div
+- https://materializecss.com/icons.html
