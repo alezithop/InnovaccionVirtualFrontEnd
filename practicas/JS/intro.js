@@ -73,3 +73,49 @@ console.log(explorer)
 console.log(explorer.email)
 
 console.log(explorer.proPer.profesional)
+
+
+
+console.log("\n****************** If *********************\n")
+if (palabra[2]=="S") {
+    console.log("S")
+} else if(palabra[2] == "E") {
+    console.log("E")
+} else {
+    console.log("Tu letra es T")
+}
+
+console.log("\n****************** For *********************\n")
+
+for (let index = 0; index < listaDeNumeros.length; index++) {
+    const element = listaDeNumeros[index];
+    console.log(element)
+}
+
+
+console.log("\n****************** Switch *********************\n")
+/* switch (prompt("¿Qué día es hoy?")) {
+    case "lunes":
+        console.log("Bonito inicio de semana")
+        break;
+
+    case "viernes":
+        console.log("Ya es fin de semana")
+        break;
+
+    case "sabado":
+        console.log("Relaaaax! B)")
+        break;
+        
+    case "domingo":
+        console.log("Disfruta tu domingo")
+        break;
+        
+    default:
+        console.log("Si se puede")
+        break;
+} */
+
+
+
+

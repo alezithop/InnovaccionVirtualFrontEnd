@@ -21,16 +21,6 @@ body > nav > div:nth-child(2) {
     position:absolute;
 }
 
-section {
-    background-color: indianred;
-    float: left;
-    width: 100%;
-}
-
-section:nth-child(2n) {
-    background-color: darkorchid;
-}
-
 nav {
     background-color: white;
 }
@@ -44,6 +34,16 @@ nav > div > ul > li {
 nav > div > ul > li > a {
     color: #ffffff;
     text-decoration: none;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 400px;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
 }
 
 .navButton {
@@ -67,25 +67,36 @@ nav > div > ul > li > a {
     border: none;
 }
 
+.box {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 900px;
+    background: #000;
+}
+
 .FightVirusSection1 {
-    width: 900px;
-    height: 700px;
+    float: left;
+    width: 100%;
+    min-height: 700px;
 }
 
 .FightVirusSection1Subsection1 {
-    width: 50%;
     float: left;
+    width: 50%;
+    min-height: 700px;
     height: 100%;
     background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
-    background-size: contain;
+    background-size: cover;
 }
 
 .FightVirusSection1Subsection2 {
     width: 50%;
     float: left;
-    height: 100%;
+    min-height: 700px;
     background-image: url('../../../assets/img/nurse.jpg');
-    background-size: contain;
+    background-size: cover;
 }
 
 .superHeader {
@@ -97,10 +108,66 @@ nav > div > ul > li > a {
     font-weight: 700;
 }
 
+.superHeader2 {
+    font-size:40px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    color: #050f47;
+    font-weight: 700;
+}
+
+.superHeader3 {
+    font-size:20px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    color: #050f47;
+    font-weight: 700;
+}
+
+.superHeader4 {
+    float: left;
+    font-size:15px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: #050f47;
+    font-weight: 700;
+}
+
+.superHeader5 {
+    color: #050f47;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
 .superHeaderDescription {
     padding-left: 60px;
-    color: #161616;
+    color: #6b6868;
 }
+
+.superHeaderDescription2 {
+    padding-left: 60px;
+    color: #6b6868;
+    width: 30%;
+}
+
+.superHeaderDescription3 {
+    padding-top: 48px;
+    padding-left: 60px;
+    color: #6b6868;
+    width: 100%;
+}
+
+.superHeaderDescription4 {
+    margin-top: 248px;
+    padding-left: 60px;
+    color: #6b6868;
+    width: 50%;
+    text-align: right;
+}
+
 
 .superHeaderIcons {
     color: gold;
@@ -111,6 +178,7 @@ nav > div > ul > li > a {
     padding-left: 40px;
     float: left;
 }
+
 .scheduleVaccinations {
     position: absolute;
     top: 50%;
@@ -138,9 +206,186 @@ nav > div > ul > li > a {
 
 .banner1 {
     float: left;
-    width: 900px;
+    width: 100%;
     height: 200px;
-    background-color: red;
     background-image: url('../../../assets/img/banner1.png');
-    background-size: contain;
+    background-size: cover;
+}
+
+.WhyShouldIVaccine {
+    float: left;
+    width: 100%;
+    min-height: 700px;
+}
+
+.whyShouldIVaccineBenefits {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(226, 226, 226);
+    margin: 10px;
+    margin-top: 40px;
+}
+
+
+.box2 {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 700px;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.box3 {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 700px;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.preparationsBeforeVaccineSection1 {
+    width: 50%;
+    float: left;
+    min-height: 800px;
+    background-image: url('../../../assets/img/recommendationWoman.jpg');
+    background-size: cover;
+}
+
+.preparationsBeforeVaccineSection2 {
+    float: left;
+    width: 50%;
+    min-height: 800px;
+    height: 100%;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.preparationsBeforeVaccineItems {
+    display: inline-block;
+    padding-left: 50px;
+    width: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(226, 226, 226);
+    margin: 10px;
+}
+
+.box4 {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 700px;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.emergencyContactSection1 {
+    width: 50%;
+    float: left;
+    min-height: 800px;
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.emergencyContactSection2 {
+    float: left;
+    width: 50%;
+    min-height: 800px;
+    height: 100%;
+    background-image: url('../../../assets/img/doctorCall.png');
+    background-size: cover;
+}
+
+.emergencyContactItems {
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(226, 226, 226);
+    margin: 10px;
+}
+
+.contactSlotIcon {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(226, 226, 226);
+    color:#16189c;
+    background: rgb(198, 207, 219);
+}
+
+.contactSlotTitle {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    color:#16189c;
+}
+
+.contactSlotDescription {
+    width: 50%;
+    font-size: 10px;
+    float: left;
+    padding-left: 10px;
+}
+
+.contactSlotButton {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    background: rgb(198, 207, 219);
+    border-radius: 3px;
+    color:#16189c;
+    font-weight: bold;
+    border-width: 0px
+}
+
+
+.contactSlotButtonPrimary {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    background-color: #16189c;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    border-width: 0px
+}
+
+.vaccionationFooter {
+    padding-top: 20px;
+    
+    background-image: url('../../../assets/img/fondoVacunacionBlanco.jpg');
+    background-size: cover;
+}
+
+.vaccinationFooterSection1 {
+    width: 50%;
+    float: left;
+    min-height: 280px;
+}
+
+.vaccinationFooterSection2 {
+    width: 50%;
+    float: left;
+    min-height: 280px;
 }

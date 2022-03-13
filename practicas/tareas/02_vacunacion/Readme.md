@@ -22,3 +22,8 @@ Bonus:
 # Links reference for help
 - https://stackoverflow.com/questions/8200204/fit-background-image-to-div
 - https://materializecss.com/icons.html
+- https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only
+- https://www.youtube.com/watch?v=JwyjHyGOgmg
+- https://www.youtube.com/watch?v=6qko7Nbe8YA
+- https://stackoverflow.com/questions/15095933/pure-css-collapse-expand-div
+- https://www.teachucomp.com/add-space-in-html-tutorial/
