@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .pokedex {
     width: 400px;
     height: 570px;
@@ -146,4 +140,4 @@
     margin-top:1px;
     margin-left: 0px;
 }
-/* FIN SECCION 3: Esta seccion se encarga de dibujar el foquito al lado del foco más grande de la pokedex*/
+/* FIN SECCION 3: Esta seccion se encarga de dibujar los 2 foquitos amarillos al lado del rojo en la pokedex*/
