@@ -1,0 +1,39 @@
+.marco-pantalla {
+    display: block;
+    width: 320px;
+    height: 300px;
+    border-radius: 20px 10px 20px 100px;
+    background-color: rgb(204, 204, 204);
+    margin: 40px;
+    position: relative;
+    display: flex;
+}
+
+.pantalla {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+}
+
+.pantalla > img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    display: flex;
+}
+
+.pantalla > h3 {
+    position: absolute;
+    margin-top: 224px;
+    margin-left: 25px;
+}

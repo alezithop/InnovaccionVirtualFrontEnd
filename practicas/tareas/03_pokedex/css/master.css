@@ -1,0 +1,12 @@
+@import url(pokedex_left_side-top.css);
+@import url(pokedex_left_side-middle.css);
+@import url(pokedex_left_side-bottom.css);
+@import url(pokedex_right_side-top.css);
+@import url(pokedex_right_side-middle.css);
+@import url(pokedex_right_side-bottom.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
