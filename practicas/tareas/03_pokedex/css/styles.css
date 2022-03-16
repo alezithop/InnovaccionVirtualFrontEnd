@@ -69,3 +69,81 @@
 }
 
 /* FIN SECCION 1: Esta seccion se encarga de dibujar el primer y más grande foco de la pokedex*/
+
+/* INICIO SECCION 2: Esta seccion se encarga de dibujar el foquito al lado del foco más grande de la pokedex*/
+.foquito-1 {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(107, 7, 7);
+    margin-top: 0px;
+    margin-left: -16px;
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+
+.foquito-1-2 {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(190, 10, 10);
+    margin-top: 0px;
+    margin-left: 9px;
+    position: a;
+    display: flex;
+    justify-self: center;
+}
+
+.foquito-1::before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: rgb(190, 10, 10);
+    margin-top:1px;
+    margin-left: 0px;
+}
+/* FIN SECCION 2: Esta seccion se encarga de dibujar el foquito al lado del foco más grande de la pokedex*/
+
+/* INICIO SECCION 3: Esta seccion se encarga de dibujar los 2 foquitos amarillos al lado del rojo en la pokedex*/
+.foquito-2 {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(105, 107, 7);
+    margin-top: 0px;
+    margin-left: -16px;
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+
+.foquito-2-2 {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(190, 187, 10);
+    margin-top: 0px;
+    margin-left: 9px;
+    position: a;
+    display: flex;
+    justify-self: center;
+}
+
+.foquito-2::before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: rgb(190, 187, 10);
+    margin-top:1px;
+    margin-left: 0px;
+}
+/* FIN SECCION 3: Esta seccion se encarga de dibujar el foquito al lado del foco más grande de la pokedex*/
