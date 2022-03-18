@@ -10,6 +10,13 @@
 </head>
 
 <body>
+    <div class="seccion-busqueda">
+        <label for="cajaBusquedaPokemon">Nombre o número de Pokémon: </label>
+
+        <input type="text" id="cajaBusquedaPokemon" name="cajaBusquedaPokemon" class="caja-buscar-pokemon" placeholder="Primarina">
+        
+        <button id="botonBuscarPokemon" name="botonBuscarPokemon" class="boton-buscar-pokemon" onclick="fetchPokemon()">Buscar</button>
+    </div>
     <div class="pokedex">
         <section class="primer-modulo">
             <section class="seccion-foquitos">
@@ -24,7 +31,7 @@
             </section>
             <div class="marco-pantalla">
                 <div class="pantalla">
-                    <img src="./assets/img/pokeball.png" alt="">
+                    <img id="imagenPokemon" name="imagenPokemon" src="./assets/img/pokeball.png" alt="">
                     <h3 id="nombrePokemon" name="nombrePokemon" class="nombre-pokemon">
                         000 - Indefinido
                     </h3>
@@ -83,4 +90,7 @@
     </div>
 </body>
 
+<footer>
+    <script src="./js/script.js"></script>
+</footer>
 </html>
