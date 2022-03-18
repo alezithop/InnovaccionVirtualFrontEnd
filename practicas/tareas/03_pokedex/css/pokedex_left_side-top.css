@@ -1,9 +1,11 @@
-.pokedex {
+.primer-modulo {
     width: 400px;
     height: 570px;
-    border-radius: 40px 10px 10px 20px;
-    background-color: rgb(36, 36, 36);
-    margin: 40px auto;
+    border-radius: 40px 0px 0px 20px;
+    background-color: rgb(51, 150, 153);
+    float:left;
+    border-color: black;
+    border-style: solid;
 }
 
 .seccion-foquitos {
@@ -48,7 +50,7 @@
     height: 35px;
     border-radius: 50%;
     background-color: rgb(84, 192, 235);
-    position: absolute
+    position: absolute;
 }
 
 .foco-grande::after {
@@ -59,7 +61,7 @@
     height: 10px;
     border-radius: 50%;
     background-color: rgb(156, 232, 238);
-    position: absolute
+    position: absolute;
 }
 
 /* FIN SECCION 1: Esta seccion se encarga de dibujar el primer y más grande foco de la pokedex*/

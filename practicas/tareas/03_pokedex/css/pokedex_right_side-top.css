@@ -1,0 +1,60 @@
+.pasta-modulo {
+    width: 40px;
+    height: 570px;
+    border-radius: 5px 10px 20px 5px;
+    background-color: rgb(51, 150, 153);
+    border-color: black;
+    border-style: solid;
+    float:left;
+}
+
+.segundo-modulo {
+    margin-top: 50px;
+    width: 400px;
+    height: 490px;
+    border-radius: 0px 70px 10px 0px;
+    background-color: rgb(51, 150, 153);
+    /*background-color: rebeccapurple;*/
+    float:left;
+    border-color: black;
+    border-style: solid;
+}
+
+.indicador-estatus {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 350px;
+    height: 320px;
+    background-color:  rgb(22, 36, 25);
+    border-radius: 10px;
+}
+
+.etiquetas {
+    margin-left: 20px;
+    color: rgb(214, 214, 51);
+}
+
+.valor-etiquetas {
+    margin-left: 10px;
+    color: white;
+}
+
+.proporciones {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.detalleProporciones {
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:  rgb(22, 36, 25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color:  rgb(104, 211, 127); */
+    float: left;
+}
