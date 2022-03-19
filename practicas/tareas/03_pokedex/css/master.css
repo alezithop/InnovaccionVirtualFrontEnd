@@ -9,8 +9,10 @@
 }
 
 .seccion-busqueda {
-    width: 840px;
-    background-color: rgb(207, 100, 100);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 28px;
 }
 
 .pokedex {
@@ -19,4 +21,36 @@
     border-radius: 40px 10px 10px 20px;
     /*background-color: rgb(36, 36, 36);*/
     margin: 40px auto;
+}
+
+.cambiar-color-pokedex {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.boton-primario {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.fondo-rojo {
+    background-color: #9c1616;
+}
+.fondo-verde {
+    background-color: #359c16;
+}
+.fondo-azul {
+    background-color: #16189c;
+}
+.fondo-default {
+    background-color: rgb(51, 150, 153);
 }

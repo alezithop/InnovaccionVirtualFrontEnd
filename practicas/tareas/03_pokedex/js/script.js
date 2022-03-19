@@ -6,8 +6,8 @@ const fetchPokemon = () => {
     fetch(url).then((respuesta) => {
         if(respuesta.status != "200") {
             console.log(respuesta);
-            definirImagenPokemon('./assets/img/emptyPokeball.png')
             document.getElementById("nombrePokemon").value = "Pokémon Not Found."
+            definirImagenPokemon('./assets/img/emptyPokeball.png')
         } else {
             return respuesta.json();
         }
@@ -78,4 +78,27 @@ const definirPeso = (peso) => {
 const definirAltura = (altura) => {
     const pokemonAltura = document.getElementById("alturaPokemon")
     pokemonAltura.innerHTML = altura + " M";
+}
+
+const cambiarColor = (color) => {
+
+    console.log("El color seleccionado es: " + color)
+    if(color == "rojo") {
+            document.getElementById("primerModulo").style.backgroundColor="red";
+            document.getElementById("pastaModulo").style.backgroundColor = "red";
+            document.getElementById("segundoModulo").style.backgroundColor = "red";
+    } else if (color == "verde") {
+        document.getElementById("primerModulo").style.backgroundColor="green";
+        document.getElementById("pastaModulo").style.backgroundColor = "green";
+        document.getElementById("segundoModulo").style.backgroundColor = "green";
+    } else if (color == "azul") {
+        document.getElementById("primerModulo").style.backgroundColor="#16189c";
+        document.getElementById("pastaModulo").style.backgroundColor = "#16189c";
+        document.getElementById("segundoModulo").style.backgroundColor = "#16189c";
+    } else {
+        document.getElementById("primerModulo").style.backgroundColor="rgb(51, 150, 153)";
+        document.getElementById("pastaModulo").style.backgroundColor = "rgb(51, 150, 153)";
+        document.getElementById("segundoModulo").style.backgroundColor = "rgb(51, 150, 153)";
+    }
+        
 }
