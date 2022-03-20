@@ -7,3 +7,6 @@
 - https://flexiple.com/javascript-capitalize-first-letter/
 - https://stackoverflow.com/questions/13166909/javascript-cannot-set-property-backgroundcolor
 - https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/
+- https://www.youtube.com/watch?v=ydcm7GECaAI
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+- https://pokeapi.co
