@@ -28,3 +28,4 @@ Following sections of the previous link helped to open FormularioPedido componen
 - Now, import the component inside the routes.js file and register that component.
 - Named routes in Vue.js
 
+- Link del mission commander para formularios: https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/05%20-%20VUEJS/programas/VUEX/components/ColorCode.vue

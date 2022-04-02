@@ -70,6 +70,7 @@
 
 <script>
 export default {
+    // Revisar el ejemplo del Mission Commander para formularios: https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/05%20-%20VUEJS/programas/VUEX/components/ColorCode.vue
     name: "FormularioPedido"
 }
 </script>
